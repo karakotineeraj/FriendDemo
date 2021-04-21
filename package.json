@@ -1,0 +1,29 @@
+{
+  "name": "friends",
+  "version": "1.0.0",
+  "description": "A simple demo app to understand friends model.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=Friends:* nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karakotineeraj/FriendDemo.git"
+  },
+  "author": "Neeraj Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karakotineeraj/FriendDemo/issues"
+  },
+  "homepage": "https://github.com/karakotineeraj/FriendDemo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

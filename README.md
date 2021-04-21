@@ -1,0 +1,1 @@
+This repo is just a demo app to understand how to create a "Friend Request Model".
